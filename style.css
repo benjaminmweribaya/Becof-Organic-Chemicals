@@ -1,0 +1,142 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #28a745;
+    /* Green background */
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-container ul li {
+    display: inline;
+    margin: 0 0px;
+}
+
+.nav-container ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-container {
+    display: none;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    margin-top: 10px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #28a745;
+    margin-top: 5px;
+}
+
+.faq-answer.d-block {
+    display: block;
+}
+
+.bg-green {
+    background-color: #28a745;
+}
+
+.card {
+    border: 1px solid #28a745;
+}
+
+.card-header {
+    background-color: #28a745;
+    color: white;
+}
+
+footer {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .nav-button {
+        display: inline-block;
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+    .nav-container.d-block {
+        display: block;
+    }
+}
+
+.btn-outline-green {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-green:hover {
+    background-color: #28a745;
+    color: #fff;
+    border-color: #28a745;
+}
+
+.nav-button {
+    border: none;
+    background: transparent;
+}
+
+.nav-container {
+    transition: max-height 0.3s ease-out;
+}
+
+@media (max-width: 767.98px) {
+    .nav-container {
+        display: block;
+        max-height: 0;
+        overflow: shown;
+    }
+
+    .nav-container.show {
+        max-height: 200px;
+        /* Adjust as necessary */
+    }
+}
+
+@media (max-width: 767.98px) {
+    .nav-container {
+        display: block;
+        max-height: 0;
+    }
+}
+
+.nav-container {
+    display: none;
+}
+
+.nav-container.show {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .nav-container {
+        display: block;
+    }
+}
