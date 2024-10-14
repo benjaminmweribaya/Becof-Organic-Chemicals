@@ -1,4 +1,4 @@
-# Becof-chemicals-E-Commerce-Website
+# Becof-Organic-Chemicals 
 Tagline: Saving Lives Through Sustainable Solutions.
 
 ## Overview
